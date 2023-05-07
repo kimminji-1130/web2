@@ -12,6 +12,7 @@ const Home = () => {
       <div className='slog'>SLOG</div>
       <div className='contact'>CONTACT</div>
       <div className='welcome'>WELLCOME</div>
+      <div className='welcome'>WELLCOME</div>
     </div>
   );
 }
