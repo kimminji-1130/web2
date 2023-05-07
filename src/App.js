@@ -1,8 +1,14 @@
 import './App.css';
-import home from './/pages/home.js';
+import React from 'react';
+import Home from './pages/Home';
 
 function App() {
-  <div id = 'blank'></div>
+  return (
+    <div>
+      <h1>My App</h1>
+      <Home />
+    </div>
+  );
 }
 
 export default App;

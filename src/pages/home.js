@@ -1,5 +1,11 @@
 import React from 'react';
 
-export default function home(){
-    <div id = 'mainline'></div>
+function Home() {
+  return (
+    <div>
+      <h2>Welcome to my home page!</h2>
+    </div>
+  );
 }
+
+export default Home;
