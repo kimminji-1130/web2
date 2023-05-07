@@ -1,9 +1,123 @@
-.mainline {
+.header {
     position: absolute;
-    width: 1920px;
-    height: 630px;
+    top: 43px;
+    width: 200vh;
+    height: 60vh;
     left: 0px;
     top: 43px;
+    background: #e0cbcb;
+}
 
-    background: #c48787;
+.name {
+    position: absolute;
+    top: 53px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+
+.about {
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    left: 194px;
+    top: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.service {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 333px;
+    top: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.work {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 495px;
+    top: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.shop {
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    left: 1349px;
+    top: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.slog {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 1488px;
+    top: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.contact {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 1605px;
+    top: 53px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.welcome {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    top: 230px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    text-align: center;
 }
