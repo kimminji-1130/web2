@@ -1,5 +1,5 @@
 import React from 'react';
 
-function home(){
+export default function home(){
     <div id = 'mainline'></div>
 }
