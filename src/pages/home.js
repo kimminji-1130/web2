@@ -1,17 +1,32 @@
 import React from 'react';
 import './Home.css';
+import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div>
+    <BrowserRouter>
     <div className='header'>
-      <div className='about'>ABOUT</div>
-      <div className='service'>SERVICE</div>
-      <div className='work'>WORK</div>
-      <div className='name'>Minji</div>
-      <div className='shop'>SHOP</div>
-      <div className='slog'>SLOG</div>
-      <div className='contact'>CONTACT</div>
+      <div className='about'>
+        <Link to='/'>ABOUT</Link>
+      </div>
+      <div className='service'>
+      <Link to='/'>SERVICE</Link>
+      </div>
+      <div className='work'>
+      <Link to='/'>WORK</Link>
+      </div>
+      <div className='name'>
+      <Link to='/'>MINJI</Link>
+      </div>
+      <div className='shop'>
+      <Link to='/'>SHOP</Link>
+      </div>
+      <div className='slog'>
+      <Link to='/'>SLOG</Link>
+      </div>
+      <div className='contact'>
+      <Link to='/'>SERVICE</Link>
+      </div>
       <div className='welcome'>WELLCOME</div>
       <div className='contant'>f you still encounter the "Missing script</div>
       <div className='text'>f you still encounter the "Missing script: 'start'" error after following these steps, please check the contents</div>
@@ -34,7 +49,7 @@ const Home = () => {
 
       </div>
     </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
