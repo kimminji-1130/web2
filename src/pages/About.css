@@ -1,0 +1,6 @@
+.about-page {
+    position: absolute;
+    top: 80px; /* Header height */
+    left: 0;
+    right: 0;
+}
