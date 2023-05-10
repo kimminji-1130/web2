@@ -1,0 +1,172 @@
+.minji {
+    position: absolute;
+    width: 77px;
+    height: 38px;
+    left: calc(50% - 77px/2 + 0.5px);
+    top: 115px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.smalltext {
+    position: absolute;
+    width: 162px;
+    height: 8px;
+    left: 879px;
+    top: 295px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #42A4FF;
+}
+
+/*중앙 맞추는거 해야함*/
+.bigtext {
+    position: absolute;
+    width: 351px;
+    height: 34px;
+    left: 785px;
+    top: 323px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+/*중앙 맞추는거 해야함*/
+.bigpicture {
+    position: absolute;
+    width: 1617px;
+    height: 500px;
+    left: 152px;
+    top: 429px;
+
+    background: #D9D9D9;
+}
+
+.sidemenu {
+    position: absolute;
+    width: 1028px;
+    height: 181px;
+    left: 108px;
+    top: 813px;
+
+    background: #42A4FF;
+}
+
+.secondpic1 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 390px;
+    top: 1172px;
+
+    background: #D9D9D9;
+}
+
+.secondpic2 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 780px;
+    top: 1172px;
+
+    background: #D9D9D9;
+}
+
+.secondpic3 {
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    left: 1170px;
+    top: 1172px;
+
+    background: #D9D9D9;
+}
+
+.secondtext {
+    position: absolute;
+    width: 1140px;
+    height: 155px;
+    left: 390px;
+    top: 1584px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.third {
+    position: absolute;
+    width: 1920px;
+    height: 450px;
+    left: 0px;
+    top: 1999px;
+
+    background: #D9D9D9;
+}
+
+.fourthtext {
+    position: absolute;
+    width: 479px;
+    height: 66px;
+    left: 726px;
+    top: 2609px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.fourthmap {
+    position: absolute;
+    width: 967px;
+    height: 688px;
+    left: 98px;
+    top: 2835px;
+
+    background: #D9D9D9;
+}
+
+.footer {
+    position: absolute;
+    width: 1925px;
+    height: 400px;
+    left: 0px;
+    top: 3600px;
+
+    background: #D9D9D9;
+}
