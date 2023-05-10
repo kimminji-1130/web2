@@ -1,0 +1,16 @@
+.minji {
+    position: absolute;
+    width: 77px;
+    height: 38px;
+    left: calc(50% - 77px/2 + 0.5px);
+    top: 11px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: black;
+    text-decoration: none;
+}

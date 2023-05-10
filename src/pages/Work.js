@@ -6,7 +6,7 @@ function Work() {
     <div>
       <h1>Work</h1>
       <p>This is the Work page.</p>
-      <Link to="/">Go to Home</Link>
+      <Link to="/" className="minji">MINJI</Link>
     </div>
   );
 }

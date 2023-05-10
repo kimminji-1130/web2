@@ -26,6 +26,7 @@ function Home() {
               Work
             </span>
           </Link>
+          <Link to="/" className="minji">MINJI</Link>
           <Link to='/Shop'>
             <span className="shop">
               SHOP

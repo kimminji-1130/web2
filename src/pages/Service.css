@@ -1,3 +1,78 @@
+.blank {
+    position: absolute;
+    width: 1920px;
+    height: 45px;
+    left: 0px;
+    top: 59px;
+
+    background: #c5c5c5;
+}
+
+.link {
+    position: absolute;
+    width: 1920px;
+    height: 59px;
+    left: 0px;
+    top: 104px;
+
+    background: #FFF1F1;
+}
+
+.about {
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    left: 192px;
+    top: 117px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+.service {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 331px;
+    top: 117px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.work {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 493px;
+    top: 117px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
 .minji {
     position: absolute;
     width: 77px;
@@ -10,8 +85,44 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-
+    text-decoration: none;
     color: #000000;
+}
+
+.shop {
+    position: absolute;
+    width: 103px;
+    height: 35px;
+    left: 1347px;
+    top: 117px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact {
+    position: absolute;
+    width: 126px;
+    height: 35px;
+    left: 1603px;
+    top: 117px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
 }
 
 .smalltext {

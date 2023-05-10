@@ -5,22 +5,22 @@
     height: 60vh;
     left: 0px;
     top: 43px;
-    background: #e0cbcb;
+    background: #FFF1F1;
+    ;
 }
 
-.name {
+.minji {
     position: absolute;
-    top: 53px;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
+    width: 77px;
+    height: 38px;
+    left: calc(50% - 77px/2 - 0.5px);
+    top: 96px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
-    color: black;
 
 }
 
@@ -129,7 +129,7 @@
     text-align: center;
 }
 
-.contant {
+.content {
     position: absolute;
     width: 100%;
     text-align: center;
@@ -175,7 +175,7 @@
     text-align: center;
 }
 
-.contants_1 {
+.content_1 {
     position: absolute;
     width: 101px;
     height: 21px;
@@ -269,7 +269,7 @@
     background: #D9D9D9;
 }
 
-.contants_2 {
+.content_2 {
     position: absolute;
     width: 101px;
     height: 21px;

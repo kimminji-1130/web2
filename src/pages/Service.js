@@ -1,11 +1,18 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 function Service() {
   return (
     <div>
-      <div className='minji'><a href="/">MINJI</a></div>
+      <div className='blank'></div>
+      <div className='link'></div>
+      <Link to="/About" className="about">ABOUT</Link>
+      <Link to="/Service" className="service">SERVICE</Link>
+      <Link to="/Work" className="work">WORK</Link>
+      <Link to="/" className="minji">MINJI</Link>
+      <Link to="/Shop" className="shop">SHOP</Link>
+      <Link to="/Contact" className="contact">CONTACT</Link>
       <div className='smalltext'>minjiminjiminjiminji</div>
       <div className='bigtext'>1:1  맞춤식 종합교육 시스템</div>
       <div className='bigpicture'></div>
@@ -21,7 +28,7 @@ function Service() {
       </div>
       <div className='fourthtext'>
         어떤 사람들에게 항상 열려 있습니다.어쩌구 저쩌구 이러쿵 저러쿵쿵
-        </div>
+      </div>
       <div className='fourthmap'></div>
       <div className='footer'></div>
     </div>
