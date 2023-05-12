@@ -1,6 +1,6 @@
 .blank {
     position: absolute;
-    width: 1920px;
+    width: 100vw;
     height: 45px;
     left: 0px;
     top: 59px;
@@ -10,7 +10,7 @@
 
 .link {
     position: absolute;
-    width: 1920px;
+    width: 100vw;
     height: 59px;
     left: 0px;
     top: 104px;
@@ -85,6 +85,8 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .shop {
@@ -125,8 +127,8 @@
 
 .firstmenu {
     position: absolute;
-    width: 1920px;
-    height: 325px;
+    width: 100vw;
+    height: 30vh;
     left: 1px;
     top: 203px;
 
@@ -135,7 +137,7 @@
 
 .secondmenu_picture {
     position: absolute;
-    width: 640px;
+    width: 640;
     height: 394px;
     left: 1160px;
     top: 598px;
@@ -145,7 +147,7 @@
 
 .secondmenu_line {
     position: absolute;
-    width: 1920px;
+    width: 100vw;
     height: 0px;
     left: 0px;
     top: 1152px;
@@ -224,8 +226,8 @@
 
 .fifthmenu_line {
     position: absolute;
-    width: 1920px;
-    height: 923px;
+    width: 100vw;
+    height: 80vh;
     left: 0px;
     top: 2881px;
 
@@ -278,8 +280,8 @@
 
 .footer_about {
     position: absolute;
-    width: 1920px;
-    height: 196px;
+    width: 100vw;
+    height: 14vh;
     left: 0px;
     top: 3804px;
 

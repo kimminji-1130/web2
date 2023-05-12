@@ -6,7 +6,10 @@ import Service from './Service';
 import Work from './Work';
 import Shop from './Shop';
 import Contact from './Contact';
+import FAQ from './FAQ';
 
+import { Container, Button, Link as FABLink } from 'react-floating-action-button';
+import { FaPlus } from 'react-icons/fa';
 
 function Home() {
   
@@ -66,6 +69,10 @@ function Home() {
             Contact
           </span>
         </Link>
+        <Link to='/FAQ'>
+          <span className="FAQ">
+          </span>
+        </Link>
       </ul>
 
       <Routes>
@@ -74,6 +81,7 @@ function Home() {
         <Route exact path="/Work" component={Work} />
         <Route exact path="/Shop" component={Shop} />
         <Route exact path="/Contact" component={Contact} />
+        <Route exact path="/FAQ" component={FAQ} />
       </Routes>
 
 
@@ -97,6 +105,20 @@ function Home() {
       <div className='text2_4'>If you still encounter the "Missing script: 'start'" error after following</div>
       <div className='text2_5'>If you still encounter the "Missing script: 'start'" error after</div>
       <div className='picture2'></div>
+
+      <Container> 
+            <FABLink href="./Shop" //
+                tooltip="어쩌구저쩌구talk"
+                icon="far fa-sticky-note" />
+            <FABLink href="./FAQ"
+                tooltip="FAQ"
+                icon="fas fa-user-plus" />
+            <Button
+                tooltip="The big plus button!"
+                icon="fas fa-plus"
+                rotate={true}
+                onClick={() => alert('FAB Rocks!')} />
+        </Container>
       <div className='footer' />
     </div>
   );
