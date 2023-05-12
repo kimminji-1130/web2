@@ -1,20 +1,16 @@
 .header {
     position: absolute;
-    top: 43px;
+    top: 5vh;
     width: 200vh;
     height: 60vh;
     left: 0px;
-    top: 43px;
     background: #FFF1F1;
-    ;
 }
 
 .minji {
     position: absolute;
-    width: 77px;
-    height: 38px;
-    left: calc(50% - 77px/2 - 0.5px);
-    top: 96px;
+    text-align: center;
+    top: 12vh;
 
     font-family: 'Roboto';
     font-style: normal;
