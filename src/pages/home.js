@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react'
 import { Routes, Route, Link } from 'react-router-dom';
 import './Home.css';
 import About from './About';
@@ -9,6 +9,34 @@ import Contact from './Contact';
 
 
 function Home() {
+  
+    const txt = "Welcome";
+    const [Text, setText] = useState('');
+    const [Count, setCount] = useState(0);
+    useEffect(() => {
+      const interval = setInterval(() => {
+          setText(Text + txt[Count]); // 이전 set한 문자 + 다음 문자
+          setCount(Count + 1); // 개수 만큼 체크 
+      }, 100);
+      if(Count === txt.length)  {  // Count를 따로 두지 않고 Text.length 체크도 가능
+          clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다
+      }
+      return () => clearInterval(interval); // 언마운트시 setInterval을 해제합니다
+  })
+
+  const txt1 = "If you still encounter the Missing script";
+    const [Text1, setText1] = useState('');
+    const [Count1, setCount1] = useState(0);
+    useEffect(() => {
+      const interval = setInterval(() => {
+          setText1(Text1 + txt1[Count1]); // 이전 set한 문자 + 다음 문자
+          setCount1(Count1 + 1); // 개수 만큼 체크 
+      }, 100);
+      if(Count1 === txt1.length)  {  // Count를 따로 두지 않고 Text.length 체크도 가능
+          clearInterval(interval); // 문자열 체크를 통해 setInterval을 해제합니다
+      }
+      return () => clearInterval(interval); // 언마운트시 setInterval을 해제합니다
+  })
   return (
     <div className='header'>
       <ul>
@@ -49,8 +77,8 @@ function Home() {
       </Routes>
 
 
-      <div className='welcome'>WELCOME</div>
-      <div className='content'>If you still encounter the "Missing script"</div>
+      <div className='welcome'><p>{ Text }</p></div>
+      <div className='content'>{ Text1 }</div>
       <div className='text'>If you still encounter the "Missing script: 'start'" error after following these steps, please check the contents</div>
       <div className='text1'>If you still encounter the "Missing script: 'start'" error after following these steps</div>
       <div className='content_1'>SERVICES</div>
