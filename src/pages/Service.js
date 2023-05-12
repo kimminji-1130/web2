@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './Service.css';
 
+
 function Service() {
+ /* global kakao */
+  useEffect(()=>{
+    var container = document.getElementById('map');
+    var options = {
+      center: new kakao.maps.LatLng(36.54351628948693, 128.79627061068447),
+      level: 3
+    };
+    var map = new kakao.maps.Map(container, options);
+    var markerPosition  = new kakao.maps.LatLng(36.54351628948693, 128.79627061068447); 
+    var marker = new kakao.maps.Marker({
+      position: markerPosition
+  });
+  marker.setMap(map);
+    }, [])
+
   return (
     <div>
       <div className='blank'></div>
@@ -24,12 +40,13 @@ function Service() {
         설명설명설명설명설명설명설명설명설명설명설명설명 설명설
         설명설명설명설명설명설명설명설명</div>
       <div className='third'>
-
       </div>
       <div className='fourthtext'>
         어떤 사람들에게 항상 열려 있습니다.어쩌구 저쩌구 이러쿵 저러쿵쿵
       </div>
-      <div className='fourthmap'></div>
+      <div className='fourthmap'>
+      <div id="map" style={{width:"967px", height:"688px"}}></div>
+      </div>
       <div className='footer'></div>
     </div>
   );

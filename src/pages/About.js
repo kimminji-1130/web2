@@ -28,7 +28,7 @@ function About() {
                 <div className='fifthmenu_picture3'></div>
                 <div className='fifthmenu_picture4'></div>
             </div>
-            <div className='footer'></div>
+            <div className='footer_about'></div>
         </div>
 
     );
