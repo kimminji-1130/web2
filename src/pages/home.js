@@ -133,7 +133,8 @@ function Home() {
                 tooltip="The big plus button!"
                 icon="fas fa-plus"
                 rotate={true}
-                onClick={() => alert('FAB Rocks!')} />
+                onClick={() => alert('FAB Rocks!')} 
+                className = 'bar' />
         </Container>
       <div className='footer' />
     </div>
