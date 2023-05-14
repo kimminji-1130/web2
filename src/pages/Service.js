@@ -39,8 +39,12 @@ function Service() {
       <div className='secondpic3'></div>
       <div className='secondtext'>설명설명설명설명설명설명설명설명설명설명설명설명 설명설명설명
         설명설명설명설명설명설명설명설명설명설명설명설명 설명설
+        설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명 설명설명설명
+        설명설명설명설명설명설명설명설명설명설명설명설명 설명설
         설명설명설명설명설명설명설명설명</div>
       <div className='third'>
+      <div className='thirdtitle1'>상담은 언제나 환영합니다.</div>
+      <div className='thirdtitle2'>프로세스는 다음과 같습니다.</div>
       </div>
       <div className='fourthtext'>
         어떤 사람들에게 항상 열려 있습니다.어쩌구 저쩌구 이러쿵 저러쿵쿵
@@ -48,7 +52,7 @@ function Service() {
       <div className='fourthmap'>
       <div id="map" style={{width:"967px", height:"688px"}}></div>
       </div>
-      <div className='footer'></div>
+      <div className='servicefooter'></div>
     </div>
   );
 }
