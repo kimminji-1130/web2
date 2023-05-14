@@ -2,15 +2,17 @@
     position: absolute;
     top: 5vh;
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     left: 0px;
     background: #FFF1F1;
 }
 
-.minji {
+.homeminji {
     position: absolute;
-    text-align: center;
-    top: 12vh;
+    width: 77px;
+    height: 38px;
+    left: calc(50% - 77px/2 - 0.5px);
+    top: 96px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -18,96 +20,134 @@
     font-size: 30px;
     line-height: 35px;
 
+    color: #000000;
+
 }
 
-.about {
+.homeabout {
     position: absolute;
     width: 103px;
     height: 35px;
     left: 194px;
-    top: 53px;
+    top: 89px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
-    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.25;
 }
 
-.service {
+.homeservice {
     position: absolute;
     width: 126px;
     height: 35px;
     left: 333px;
-    top: 53px;
+    top: 89px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
-    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.25;
 }
 
-.work {
+.homework {
     position: absolute;
     width: 126px;
     height: 35px;
     left: 495px;
-    top: 53px;
+    top: 89px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
-    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.25;
 }
 
-.shop {
+.homeshop {
     position: absolute;
     width: 103px;
     height: 35px;
     left: 1349px;
-    top: 53px;
+    top: 96px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
-    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.25;
 }
 
-.slog {
+.homeslog {
     position: absolute;
-    width: 126px;
-    height: 35px;
+    width: 81px;
+    height: 28px;
     left: 1488px;
-    top: 53px;
+    top: 96px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
-    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.25;
 }
 
-.contact {
+.homecontact {
     position: absolute;
     width: 126px;
     height: 35px;
     left: 1605px;
-    top: 53px;
+    top: 96px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 29px;
-    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.25;
 }
 
 .welcome {
@@ -359,10 +399,140 @@
     background: #D9D9D9;
 }
 
+.homeline {
+    position: absolute;
+    width: 100vw;
+    height: 25vh;
+    left: 0px;
+    top: 2544px;
+
+    background: #D9D9D9;
+}
+
+.content_3 {
+    position: absolute;
+    width: 101px;
+    height: 21px;
+    left: calc(50% - 101px/2 - 484.5px);
+    top: 3347px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.text3 {
+    position: absolute;
+    width: 500px;
+    height: 126px;
+    left: calc(50% - 500px/2 - 285px);
+    top: 3403px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.readmorebox {
+    box-sizing: border-box;
+    position: absolute;
+    width: 115px;
+    height: 32px;
+    left: calc(50% - 500px/2 - 285px);
+    top: 3560px;
+
+    background: #FFFEFE;
+    border: 1px solid #9D9D9D;
+}
+
+.readmore {
+    position: absolute;
+    top: 0.5vh;
+    left: 0.8vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.picture3 {
+    position: absolute;
+    width: 667px;
+    height: 667px;
+    left: 1000px;
+    top: 3104px;
+
+    background: #D9D9D9;
+}
+
+.text4 {
+    position: absolute;
+    width: 500px;
+    height: 29px;
+    left: calc(50% - 500px/2 - 560px);
+    top: 3899px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.picture4_1 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 150px;
+    top: 3960px;
+
+    background: #D9D9D9;
+}
+
+.picture4_2 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 580px;
+    top: 3960px;
+
+    background: #D9D9D9;
+}
+
+.picture4_3 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 1010px;
+    top: 3960px;
+
+    background: #D9D9D9;
+}
+
+.picture4_4 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    left: 1440px;
+    top: 3960px;
+
+    background: #D9D9D9;
+}
+
 .footer {
     position: absolute;
     width: 100vw;
-    height: 400px;
+    height: 20vh;
     left: 0px;
     top: 4400px;
 

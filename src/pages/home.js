@@ -9,7 +9,6 @@ import Contact from './Contact';
 import FAQ from './FAQ';
 
 import { Container, Button, Link as FABLink } from 'react-floating-action-button';
-import { FaPlus } from 'react-icons/fa';
 
 function Home() {
   
@@ -44,29 +43,34 @@ function Home() {
     <div className='header'>
       <ul>
         <Link to='/About'>
-          <span className="about">
-            About
+          <span className="homeabout">
+            ABOUT
           </span>
         </Link>
         <Link to='/Service'>
-          <span className="service">
-            Service
+          <span className="homeservice">
+            SERVICE
           </span>
         </Link>
         <Link to='/Work'>
-          <span className="work">
-            Work
+          <span className="homework">
+            WORK
           </span>
         </Link>
-        <Link to="/" className="minji">MINJI</Link>
+        <Link to="/" className="homeminji" style={{textDecoration: "none"}}>MINJI</Link>
         <Link to='/Shop'>
-          <span className="shop">
+          <span className="homeshop">
             SHOP
           </span>
         </Link>
+        <Link to='/Slog'>
+          <span className="homeslog">
+            SLOG
+          </span>
+        </Link>
         <Link to='/Contact'>
-          <span className="contact">
-            Contact
+          <span className="homecontact">
+            CONTACT
           </span>
         </Link>
         <Link to='/FAQ'>
@@ -106,6 +110,18 @@ function Home() {
       <div className='text2_5'>If you still encounter the "Missing script: 'start'" error after</div>
       <div className='picture2'></div>
 
+      <div className='homeline'></div>
+      <div className='content_3'>SERVICES</div>
+      <div className='text3'>f you still encounter the "Missing script: 'start'" error after following f you still encounter the "Missing script: 'start'" error after following </div>
+      <div className='readmorebox'>
+        <div className='readmore'>READ MORE</div>
+      </div>
+      <div className='picture3'></div>
+      <div className='text4'>f you still encounter the "Missing script</div>
+      <div className='picture4_1'></div>
+      <div className='picture4_2'></div>
+      <div className='picture4_3'></div>
+      <div className='picture4_4'></div>
       <Container> 
             <FABLink href="./Shop" //
                 tooltip="어쩌구저쩌구talk"
