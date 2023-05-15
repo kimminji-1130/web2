@@ -5,6 +5,7 @@ import About from './About';
 import Service from './Service';
 import Work from './Work';
 import Shop from './Shop';
+import Slog from './Slog';
 import Contact from './Contact';
 import FAQ from './FAQ';
 
@@ -65,7 +66,7 @@ function Home() {
         </Link>
         <Link to='/Slog'>
           <span className="homeslog">
-            SLOG
+            POTO
           </span>
         </Link>
         <Link to='/Contact'>
@@ -84,6 +85,7 @@ function Home() {
         <Route exact path="/Service" component={Service} />
         <Route exact path="/Work" component={Work} />
         <Route exact path="/Shop" component={Shop} />
+        <Route exact path="/Slog" component={Slog} />
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/FAQ" component={FAQ} />
       </Routes>
