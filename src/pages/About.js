@@ -12,7 +12,7 @@ function About() {
             <Link to="/Work" className="work">WORK</Link>
             <Link to="/" className="minji">MINJI</Link>
             <Link to="/Shop" className="shop">SHOP</Link>
-            <Link to="/Slog" className="slog">SLOG</Link>
+            <Link to="/Slog" className="slog">POTO</Link>
             <Link to="/Contact" className="contact">CONTACT</Link>
             <div className='firstmenu'>
                 <div className='firsttext1'>어쩌구 저쩌구 혁신 어쩌구</div>

@@ -27,44 +27,44 @@ function Slog() {
             <div className='post1'>
                 <div className='post1poto'></div>
                 <div className='post1title'>2023년 어쩌구</div>
-                <div className='post1date'></div>
+                <div className='post1date'>2023-05-03</div>
             </div>
             <div className='post2'>
                 <div className='post2poto'></div>
                 <div className='post2title'>2023년 어쩌구</div>
-                <div className='post2date'></div>
+                <div className='post2date'>2023-05-03</div>
             </div>
             <div className='post3'>
                 <div className='post3poto'></div>
                 <div className='post3title'>2023년 어쩌구</div>
-                <div className='post3date'></div>
+                <div className='post3date'>2023-05-03</div>
             </div>
             <div className='post4'>
                 <div className='post4poto'></div>
                 <div className='post4title'>2023년 어쩌구</div>
-                <div className='post4date'></div>
+                <div className='post4date'>2023-05-03</div>
             </div>
             <div className='post5'>
                 <div className='post5poto'></div>
                 <div className='post5title'>2023년 어쩌구</div>
-                <div className='post5date'></div>
+                <div className='post5date'>2023-05-03</div>
             </div>
             <div className='post6'>
                 <div className='post6poto'></div>
                 <div className='post6title'>2023년 어쩌구</div>
-                <div className='post6date'></div>
+                <div className='post6date'>2023-05-03</div>
             </div>
             <div className='post7'>
                 <div className='post7poto'></div>
                 <div className='post7title'>2023년 어쩌구</div>
-                <div className='post7date'></div>
+                <div className='post7date'>2023-05-03</div>
             </div>
             <div className='post8'>
                 <div className='post8poto'></div>
                 <div className='post8title'>2023년 어쩌구</div>
-                <div className='post8date'></div>
+                <div className='post8date'>2023-05-03</div>
             </div>
-
+            <div className='potofooter'></div>
     </div>
   );
 }
