@@ -61,7 +61,7 @@ function Home() {
         <Link to="/" className="homeminji" style={{textDecoration: "none"}}>MINJI</Link>
         <Link to='/Shop'>
           <span className="homeshop">
-            SHOP
+            INFO
           </span>
         </Link>
         <Link to='/Slog'>
