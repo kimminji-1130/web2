@@ -30,6 +30,14 @@ function Shop() {
                 <div className='codinglink1'></div>
                 <div className='codinglink2'></div>
                 <div className='codinglink3'></div>
+                <div className='hard'>HARD</div>
+                <div className='codinglink4'></div>
+                <div className='codinglink5'></div>
+                <div className='codinglink6'></div>
+                <div className='payofcharde'>PAY OF CHARDE</div>
+                <div className='codinglink7'></div>
+                <div className='codinglink8'></div>
+                <div className='codinglink9'></div>
               </div>
             </div>
     </div>
