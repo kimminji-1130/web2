@@ -4,7 +4,7 @@
     width: 100vw;
     height: 50vh;
     left: 0px;
-    background: #FFF1F1;
+    background: #F1F6F9;
 }
 
 .homeminji {
@@ -20,7 +20,7 @@
     font-size: 30px;
     line-height: 35px;
 
-    color: #000000;
+    color: #394867;
 
 }
 
@@ -28,7 +28,7 @@
     position: absolute;
     width: 103px;
     height: 35px;
-    left: 194px;
+    left: calc(12.5% - 77px/2 - 0.5px);
     top: 89px;
 
     font-family: 'Roboto';
@@ -40,7 +40,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 
     opacity: 0.25;
 }
@@ -49,7 +49,7 @@
     position: absolute;
     width: 126px;
     height: 35px;
-    left: 333px;
+    left: calc(25% - 77px/2 - 0.5px);
     top: 89px;
 
     font-family: 'Roboto';
@@ -61,7 +61,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 
     opacity: 0.25;
 }
@@ -70,7 +70,7 @@
     position: absolute;
     width: 126px;
     height: 35px;
-    left: 495px;
+    left: calc(37.5% - 77px/2 - 0.5px);
     top: 89px;
 
     font-family: 'Roboto';
@@ -82,7 +82,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 
     opacity: 0.25;
 }
@@ -103,7 +103,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 
     opacity: 0.25;
 }
@@ -124,7 +124,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 
     opacity: 0.25;
 }
@@ -145,7 +145,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 
     opacity: 0.25;
 }
@@ -163,6 +163,8 @@
     font-size: 23px;
     line-height: 28px;
     text-align: center;
+
+    color : #212A3E;
 }
 
 .content {
@@ -178,7 +180,7 @@
     font-size: 25px;
     line-height: 33px;
     text-align: center;
-
+    color : #212A3E;
 }
 
 .text {
@@ -194,6 +196,7 @@
     font-size: 18px;
     line-height: 23px;
     text-align: center;
+    color : #212A3E;
 }
 
 .text1 {
@@ -529,11 +532,6 @@
     background: #D9D9D9;
 }
 
-.bar {
-    background: #636363;
-}
-/*왜 안되냐구...*/
-
 .footer {
     position: absolute;
     width: 100vw;
@@ -541,5 +539,5 @@
     left: 0px;
     top: 4400px;
 
-    background: #D9D9D9;
+    background: #9BA4B5;
 }

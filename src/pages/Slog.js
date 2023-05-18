@@ -11,7 +11,7 @@ function Slog() {
             <Link to="/About" className="about">ABOUT</Link>
             <Link to="/Service" className="service">SERVICE</Link>
             <Link to="/Work" className="work">WORK</Link>
-            <Link to="/" className="minji">MINJI</Link>
+            <Link to="/" className="minji">CODINFO</Link>
             <Link to="/Shop" className="shop">INFO</Link>
             <Link to="/Slog" className="slog">POTO</Link>
             <Link to="/Contact" className="contact">CONTACT</Link>

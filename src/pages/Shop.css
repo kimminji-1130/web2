@@ -1,11 +1,11 @@
 .infoblank {
     position: absolute;
-    width: 1920px;
-    height: 95px;
+    width: 100vw;
+    height: 6.5vh;
     left: 0px;
     top: 163px;
 
-    background: #D9D9D9;
+    background: #9BA4B5;
 }
 
 .coding {
@@ -26,7 +26,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 }
 
 .edutation {
@@ -47,7 +47,7 @@
     align-items: center;
     text-align: center;
 
-    color: #000000;
+    color: #212A3E;
 }
 
 .자격증 {
@@ -67,6 +67,8 @@
     display: flex;
     align-items: center;
     text-align: center;
+
+    color: #212A3E;
 }
 
 .feedback {
@@ -86,6 +88,8 @@
     display: flex;
     align-items: center;
     text-align: center;
+
+    color: #212A3E;
 }
 
 .infowork {
@@ -124,7 +128,7 @@
     text-align: center;
 }
 
-.codineline1 {
+.codingline1 {
     position: absolute;
     width: 1500px;
     height: 0px;
@@ -160,10 +164,16 @@
     left: 282px;
     top: 212px;
 
-    background: #D9D9D9;
+    background: #505050;
     border-radius: 60px;
 }
 
+.codetreeicon {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
 .codinglink2 {
     position: absolute;
     width: 430px;
