@@ -89,7 +89,20 @@ function Home() {
         <Route exact path="/Contact" component={Contact} />
         <Route exact path="/FAQ" component={FAQ} />
       </Routes>
-
+<Container> 
+            <FABLink href="./Shop" //
+                tooltip="어쩌구저쩌구talk"
+                icon="far fa-sticky-note" />
+            <FABLink href="./FAQ"
+                tooltip="FAQ"
+                icon="fas fa-user-plus" />
+            <Button
+                tooltip="The big plus button!"
+                icon="fas fa-plus"
+                rotate={true}
+                onClick={() => alert('FAB Rocks!')} 
+                className = 'bar' />
+        </Container>
 
       <div className='welcome'><p>{ Text }</p></div>
       <div className='content'>{ Text1 }</div>
@@ -124,20 +137,7 @@ function Home() {
       <div className='picture4_2'></div>
       <div className='picture4_3'></div>
       <div className='picture4_4'></div>
-      <Container> 
-            <FABLink href="./Shop" //
-                tooltip="어쩌구저쩌구talk"
-                icon="far fa-sticky-note" />
-            <FABLink href="./FAQ"
-                tooltip="FAQ"
-                icon="fas fa-user-plus" />
-            <Button
-                tooltip="The big plus button!"
-                icon="fas fa-plus"
-                rotate={true}
-                onClick={() => alert('FAB Rocks!')} 
-                className = 'bar' />
-        </Container>
+      
       <div className='footer' />
     </div>
   );
