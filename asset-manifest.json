@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/web2/static/css/main.9e66dd2f.css",
-    "main.js": "/web2/static/js/main.940165a5.js",
-    "static/js/787.205cbdd4.chunk.js": "/web2/static/js/787.205cbdd4.chunk.js",
-    "index.html": "/web2/index.html",
-    "main.9e66dd2f.css.map": "/web2/static/css/main.9e66dd2f.css.map",
-    "main.940165a5.js.map": "/web2/static/js/main.940165a5.js.map",
-    "787.205cbdd4.chunk.js.map": "/web2/static/js/787.205cbdd4.chunk.js.map"
+    "main.css": "/kimminji-1130.github.io/web2/static/css/main.9e66dd2f.css",
+    "main.js": "/kimminji-1130.github.io/web2/static/js/main.a1adeb0e.js",
+    "static/js/787.205cbdd4.chunk.js": "/kimminji-1130.github.io/web2/static/js/787.205cbdd4.chunk.js",
+    "index.html": "/kimminji-1130.github.io/web2/index.html",
+    "main.9e66dd2f.css.map": "/kimminji-1130.github.io/web2/static/css/main.9e66dd2f.css.map",
+    "main.a1adeb0e.js.map": "/kimminji-1130.github.io/web2/static/js/main.a1adeb0e.js.map",
+    "787.205cbdd4.chunk.js.map": "/kimminji-1130.github.io/web2/static/js/787.205cbdd4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e66dd2f.css",
-    "static/js/main.940165a5.js"
+    "static/js/main.a1adeb0e.js"
   ]
 }
